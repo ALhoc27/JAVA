@@ -1,6 +1,6 @@
 ---
 order: 3
-title: Статические элементы
+title: 4. Static и final элементы
 ---
 
 
