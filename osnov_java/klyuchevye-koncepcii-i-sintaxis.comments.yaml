@@ -1,0 +1,110 @@
+tnIUN:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:11:57.651Z'
+    content: (от -2,147,483,648 до 2,147,483,647)
+  answers: []
+UGuOb:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:14:07.393Z'
+    content: 'Точность: \~7 десятичных цифр'
+  answers: []
+KxMVb:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:16:56.714Z'
+    content: >-
+      Применение: используется для экономии памяти в больших массивах, где нужно
+      хранить небольшие целые числа.
+  answers: []
+av8Nj:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:17:07.206Z'
+    content: >-
+      Применение: используется для экономии памяти по сравнению с типом int в
+      больших массивах.
+  answers: []
+AmVpf:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:17:19.849Z'
+    content: 'Применение: наиболее часто используемый тип для хранения целых чисел.'
+  answers: []
+8Vqnd:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:17:32.505Z'
+    content: >-
+      Применение: используется для хранения больших целых чисел, когда диапазон
+      int недостаточен.
+  answers: []
+sX1hS:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:17:44.093Z'
+    content: >-
+      Применение: используется для чисел с плавающей запятой с одинарной
+      точностью (например, в графике или научных вычислениях).
+  answers: []
+o6vZm:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:20:48.864Z'
+    content: >-
+      Применение: чаще всего используется для чисел с плавающей запятой, где
+      требуется большая точность.
+  answers: []
+c94GX:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:21:02.575Z'
+    content: 'Применение: используется для логических значений и условных операторов.'
+  answers: []
+5NsEE:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:21:11.273Z'
+    content: >-
+      Применение: используется для хранения символов Unicode, например, букв,
+      цифр, символов и специальных знаков.
+  answers: []
+2IQZV:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:54:51.917Z'
+    content: >-
+      Размер: 1 бит (хранит значение как true или false, но в памяти выделяется
+      минимум 1 байт)
+  answers: []
+KzT2U:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-05T11:55:25.189Z'
+    content: 'Точность: \~15 десятичных цифр'
+  answers: []
