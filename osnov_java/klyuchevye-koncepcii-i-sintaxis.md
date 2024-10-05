@@ -488,8 +488,120 @@ public class Main {
 
 Java поддерживает стандартные циклы, такие как:
 
--  `for`
+-  `for` / `for-each`: Используется для повторений с известным количеством итераций или для обхода массивов и коллекций.
 
--  `while`
+:::note:true Подробнее
 
--  `do-while`
+{% table %}
+
+---
+
+*  {% colwidth=[366] isHeader=true %}
+
+   **for**
+
+*  {% colwidth=[378] isHeader=true %}
+
+   **for-each**
+
+---
+
+*  {% colwidth=[366] %}
+
+   ```java
+   for (int i = 0; i < 3; i++) {
+       System.out.println(i);  //  0, 1, 2
+   }
+   ```
+
+*  {% colwidth=[378] %}
+
+   ```java
+   int[] numbers = {1, 2, 3};
+   for (int num : numbers) {
+       System.out.println(num);  //  1, 2, 3
+   }
+   ```
+
+{% /table %}
+
+:::
+
+-  `while`: Выполняет цикл, пока условие истинно. *(когда количество итераций заранее неизвестно, цикл работает, пока условие истинно*)
+
+:::note:true Подробнее
+
+```java
+int i = 0;
+while (i < 3) {
+    System.out.println(i);  // Вывод: 0, 1, 2
+    i++;
+}
+```
+
+:::
+
+-  `do-while`: Выполняет цикл хотя бы один раз, затем проверяет условие для продолжения.
+
+:::note:true Подробнее
+
+```java
+int i = 0;
+do {
+    System.out.println(i);  // Вывод: 0, 1, 2
+    i++;
+} while (i < 3);
+```
+
+:::
+
+#### Ключевые слова `break` и `continue`
+
+1. `break`: немедленно завершает выполнение цикла.
+
+2. `continue`: пропускает оставшуюся часть текущей итерации и переходит к следующей.
+
+:::note:true Подробнее
+
+{% table %}
+
+---
+
+*  {% colwidth=[337] isHeader=true %}
+
+   Пример с `break`:
+
+*  {% colwidth=[357] isHeader=true %}
+
+   Пример с `continue`:
+
+---
+
+*  {% colwidth=[337] %}
+
+   ```java
+   for (int i = 0; i < 10; i++) {
+      if (i == 5) {
+      // Прерывает цикл, если i равно 5
+         break;  
+      }
+      System.out.println(i);
+   }
+   ```
+
+*  {% colwidth=[357] %}
+
+   ```java
+   for (int i = 0; i < 5; i++) {
+      if (i == 2) {
+      // Пропускает итерацию, когда i равно 2
+         continue;
+      }
+      System.out.println(i);
+   }
+   ```
+
+{% /table %}
+
+:::
+
