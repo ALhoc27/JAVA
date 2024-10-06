@@ -5,12 +5,6 @@ title: Для письма admin
 
 [html:iframe]
 
-<mark style="background-color: yellow;" onmouseover="this.style.backgroundColor='orange';" onmouseout="this.style.backgroundColor='yellow';">
-        интерактивное выделение
-</mark>
-
-<br/>
-
 <mark style="background-color: transparent; color: #FF8C00;"> &nbsp&nbsp зелёный фон</mark>
 
 <br/>
@@ -44,6 +38,10 @@ color: rgba(255, 165, 0, 0.2);    <br/>
         Текст с <mark style="background-color: rgba(255, 165, 0, 0.3); font-weight: normal; padding: 2px 6px; border: 1px solid #ccc;">полупрозрачным оранжевым фоном</mark> и строгим классическим <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> фоном </mark>стилем шрифта <strong>Tahoma</strong>.
 </p>
 
+<p style="font-family: Tahoma, sans-serif; font-size: 16px; color: #444; line-height: 1.6; letter-spacing: 0.5px;">
+        Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;">мягким полупрозрачным оранжевым фоном</mark> и более плавным <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;">fewfwewfwew <strong>fsf</strong></mark> оформлением.
+</p>
+
 [/html]
 
 [html:iframe]
@@ -54,4 +52,8 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
 [/html]
 
+[html:iframe]
 
+<mark style="background-color: rgba(255, 165, 0, 0.5); color: black; font-family: font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; font-weight: bold; font-size: 16px !important;"> &nbsp&nbsp Один класс - один родитель.</mark>
+
+[/html]
