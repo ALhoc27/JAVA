@@ -57,3 +57,18 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 <mark style="background-color: rgba(255, 165, 0, 0.5); color: black; font-family: font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; font-weight: bold; font-size: 16px !important;"> &nbsp&nbsp Один класс - один родитель.</mark>
 
 [/html]
+
+[html:iframe]
+
+<pre style="background-color: #f4f4f4; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">
+`123` - code
+**Class Loader** - Жирный
+```java
+
+```
+</pre>
+
+
+[/html]
+
+
