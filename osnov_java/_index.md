@@ -317,11 +317,9 @@ class Child extends Parent {
 
 [html:iframe]
 
-<pre style="background-color: #f4f4f4; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">
-В Java, полиморфизм реализуется с помощью наследования/имплементирования
- классов и интерфейсов,<strong> а именно с помощью переопределения и перегрузки.
- </strong>
-</pre>
+
+<mark style="background-color: #f4f4f4; padding: 6px; border-radius: 3px; font-family: 'Courier New', Courier, monospace; line-height: 1.8; margin: 10px 0; overflow: auto;"> В Java, полиморфизм реализуется с помощью наследования/имплементирования классов и интерфейсов,<strong> а именно с помощью переопределения и перегрузки.</strong>
+</mark>
 
 [/html]
 
