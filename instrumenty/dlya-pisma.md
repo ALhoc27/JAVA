@@ -46,4 +46,12 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
 [/html]
 
+[html:iframe]
+
+<p style="font-family: Tahoma, sans-serif; font-size: 16px; color: #444; line-height: 1.6; letter-spacing: 0.5px;">
+        Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;">мягким полупрозрачным оранжевым фоном</mark> и более плавным <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;">fewfwewfwew <strong>fsf</strong></mark> оформлением.
+</p>
+
+[/html]
+
 
