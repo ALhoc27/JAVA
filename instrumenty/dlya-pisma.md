@@ -38,7 +38,9 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
 <mark style="background-color: transparent; color: #2F1704; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 18px;"> &nbsp&nbsp Один класс - один родитель.</mark>
 
-<br/>
+<br/><br/>
+
+<mark style="background-color: transparent; color: black; font-family: font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; font-size: 16px !important;"> &nbsp&nbsp Один <strong>класс</strong> - один родитель.</mark>
 
 [/html]
 
