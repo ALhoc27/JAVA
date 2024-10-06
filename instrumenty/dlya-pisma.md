@@ -30,9 +30,28 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
 <br/>
 
+<pre>
 `123` - code
 **Class Loader** - Жирный
 ```java
-123{%/html%}
+1
+```
+</pre>
+
+<br/>
+
+<mark style="background-color: rgba(255, 165, 0, 0.5); color: black; font-family: font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; font-weight: bold; font-size: 16px !important;"> &nbsp&nbsp Один класс - один родитель.</mark>
+
+<p style="font-family: Tahoma, sans-serif; font-size: 18px; color: #444; line-height: 1.6; letter-spacing: 0.5px;">
+        Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;">мягким полупрозрачным оранжевым фоном</mark> и более плавным оформлением.
+</p>
+
+<mark style="background-color: transparent; color: #555; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; letter-spacing: normal !important; font-weight: 300 !important; font-size: 17px !important; padding: 5px 10px; line-height: 1.6; border-radius: 2px;">
+   Основной
+</mark>
+
+<p style="font-family: Tahoma, sans-serif; font-size: 15px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">
+        Текст с <mark style="background-color: rgba(255, 165, 0, 0.3); font-weight: normal; padding: 2px 6px; border: 1px solid #ccc;">полупрозрачным оранжевым фоном</mark> и строгим классическим стилем шрифта Tahoma.
+</p>
 
 [/html]
