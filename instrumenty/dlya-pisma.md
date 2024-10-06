@@ -41,6 +41,7 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 <p style="font-family: Tahoma, sans-serif; font-size: 16px; color: #444; line-height: 1.6; letter-spacing: 0.5px;">
         Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;">мягким полупрозрачным оранжевым фоном</mark> и более плавным <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;">fewfwewfwew <strong>fsf</strong></mark> оформлением.
 </p>
+<mark style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;"> &nbsp&nbsp Один класс - один родитель.</mark>
 
 [/html]
 
@@ -54,7 +55,7 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
 [html:iframe]
 
-<mark style="background-color: rgba(255, 165, 0, 0.5); color: black; font-family: font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; font-weight: bold; font-size: 16px !important;"> &nbsp&nbsp Один класс - один родитель.</mark>
+<mark style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;"> &nbsp&nbsp Один класс - один родитель.</mark>
 
 [/html]
 
