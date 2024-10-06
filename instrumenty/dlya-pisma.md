@@ -1,6 +1,6 @@
 ---
 order: 1
-title: Для письма admin
+title: Admin
 ---
 
 [html:iframe]
