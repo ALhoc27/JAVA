@@ -44,6 +44,7 @@ title: Admin
    `123` - code
    **Class Loader** - Жирный
    ```java
+   < i > - курсив < /i >
    </pre>
 
    [/html]
