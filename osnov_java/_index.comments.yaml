@@ -263,58 +263,64 @@ TOx2y:
         mail: alexbbtsk@gmail.com
         name: ALhoc27
       dateTime: '2024-10-07T17:07:06.064Z'
-      content: |+
+      content: |-
         class Animal {
 
-            void sound() {
+        ```
+        void sound() {
 
-                System.out.println("Animal makes a sound");
+            System.out.println("Animal makes a sound");
 
-            }
+        }
+        ```
 
         }
 
         class Dog extends Animal {
 
-            @Override
+        ```
+        @Override
 
-            void sound() {
+        void sound() {
 
-                System.out.println("Dog barks");
+            System.out.println("Dog barks");
 
-            }
+        }
+        ```
 
         }
 
         class Cat extends Animal {
 
-            @Override
+        ```
+        @Override
 
-            void sound() {
+        void sound() {
 
-                System.out.println("Cat meows");
+            System.out.println("Cat meows");
 
-            }
+        }
+        ```
 
         }
 
         public class Main {
 
-            public static void main(String\[\] args) {
+        ```
+        public static void main(String\[\] args) {
 
-                Animal myAnimal = new Dog();  // Ссылка типа Animal указывает на объект Dog
+            Animal myAnimal = new Dog();  // Ссылка типа Animal указывает на объект Dog
 
-                myAnimal.sound();             // Вызывается метод Dog, не Animal
+            myAnimal.sound();             // Вызывается метод Dog, не Animal
 
-                myAnimal = new Cat();         // Теперь ссылка указывает на объект Cat
+            myAnimal = new Cat();         // Теперь ссылка указывает на объект Cat
 
-                myAnimal.sound();             // Вызывается метод Cat
-
-            }
+            myAnimal.sound();             // Вызывается метод Cat
 
         }
+        ```
 
-
+        }
     - user:
         mail: alexbbtsk@gmail.com
         name: ALhoc27
