@@ -3,7 +3,34 @@ order: 1
 title: Admin
 ---
 
+{% table %}
 
+---
+
+*  {% colwidth=[325] %}
+
+   # `#`  Sasha
+
+   ## `##`  Sasha
+
+   ### `###`  Sasha
+
+   #### `####`  Sasha
+
+*  {% colwidth=[429] %}
+
+   ```
+   font-weight: bold;
+   font-style: italic;
+   font-size: 20px;
+   border-radius: 5px; padding: 5px;
+   text-shadow: 2px 2px 5px gray;
+   font-family: 'Courier New', Courier, monospace;
+   background-color: transparent;
+   color: rgba(255, 165, 0, 0.2);
+   ```
+
+{% /table %}
 
 {% table %}
 
@@ -161,38 +188,6 @@ title: Admin
 
 *  {% colwidth=[398] %}
 
-	
 
 {% /table %}
 ```
-
-{% table %}
-
----
-
-*  {% colwidth=[339] %}
-
-   # `#`  Sasha
-
-   ## `##`  Sasha
-
-   ### `###`  Sasha
-
-   #### `####`  Sasha
-
-*  {% colwidth=[429] %}
-
-   ```
-   font-weight: bold;
-   font-style: italic;
-   font-size: 20px;
-   border-radius: 5px; padding: 5px;
-   text-shadow: 2px 2px 5px gray;
-   font-family: 'Courier New', Courier, monospace;
-   background-color: transparent;
-   color: rgba(255, 165, 0, 0.2);
-   ```
-
-{% /table %}
-
-
