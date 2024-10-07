@@ -71,18 +71,60 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
    [html:iframe]
 
-   <p style="font-family: Tahoma, sans-serif; font-size: 15px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">
-           Текст с <mark style="background-color: rgba(255, 165, 0, 0.3); font-weight: normal; padding: 2px 6px; border: 1px solid #ccc;">полупрозрачным оранжевым фоном</mark> и строгим классическим <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> фоном </mark>стилем шрифта <strong>Tahoma</strong>.
-   </p>
+   <pre style="background-color: transparent; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">
+   `123` - code
+   **Class Loader** - Жирный
+   ```java
+   </pre>
 
    [/html]
 
 *  {% colwidth=[2855] %}
 
    ```
+   <pre style="background-color: transparent; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">
+      `123` - code
+      **Class Loader** - Жирный
+      ```java
+   </pre>
+   ```
+
+---
+
+*  {% colwidth=[324] %}
+
+   [html:iframe]
+
+   <mark style="background-color: #f4f4f4; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">
+      полупрозрачным оранжевым<strong> фоном </strong>
+      </mark>
+
+   [/html]
+
+*  {% colwidth=[2855] %}
+
+   ```
+   <mark style=«background-color: #f4f4f4; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;»>
+      полупрозрачным оранжевым<strong> фоном </strong> </mark>
+   ```
+
+---
+
+*  {% colwidth=[324] %}
+
+   [html:iframe]
+
    <p style="font-family: Tahoma, sans-serif; font-size: 15px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">
-        Текст с <mark style="background-color: rgba(255, 165, 0, 0.3); font-weight: normal; padding: 2px 6px; border: 1px solid #ccc;">полупрозрачным оранжевым фоном</mark> и строгим классическим <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> фоном </mark>стилем шрифта <strong>Tahoma</strong>.
-   </p>
+         Текст с <mark style="background-color: rgba(255, 165, 0, 0.3); font-weight: normal; padding: 2px 6px; border: 1px solid #ccc;">полупрозрачным оранжевым фоном</mark> и строгим классическим <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> фоном </mark>стилем шрифта <strong>Tahoma</strong>.
+      </p>
+
+   [/html]
+
+*  {% colwidth=[2855] %}
+
+   ```
+   <p style=«font-family: Tahoma, sans-serif; font-size: 15px; color: #000; line-height: 1.5; letter-spacing: 0.5px;»>
+        Текст с <mark style="background-color: rgba(255, 165, 0, 0.3); font-weight: normal; padding: 2px 6px; border: 1px solid #ccc;«>полупрозрачным оранжевым фоном</mark> и строгим классическим <mark style=»background-color: transparent; font-weight: normal; color: #AE4C00;"> фоном </mark>стилем шрифта <strong>Tahoma</strong>. </p>
    ```
 
 ---
@@ -92,8 +134,8 @@ color: rgba(255, 165, 0, 0.2);    <br/>
    [html:iframe]
 
    <p style="font-family: Tahoma, sans-serif; font-size: 16px; color: #444; line-height: 1.6; letter-spacing: 0.5px;">
-      Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;">мягким полупрозрачным оранжевым фоном</mark> и более плавным <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;">fewfwewfwew <strong>fsf</strong></mark> оформлением.
-   </p>
+         Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;">мягким полупрозрачным оранжевым фоном</mark> и более плавным <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;">fewfwewfwew <strong>fsf</strong></mark> оформлением.
+      </p>
 
    [/html]
 
@@ -101,8 +143,7 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
    ```
     <p style=«font-family: Tahoma, sans-serif; font-size: 16px; color: #444; line-height: 1.6; letter-spacing: 0.5px;»>
-      Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;«>мягким полупрозрачным оранжевым фоном</mark> и более плавным <mark style=»background-color: transparent; font-weight: normal; color: #AE4C00;">fewfwewfwew <strong>fsf</strong></mark> оформлением.
-    </p>
+      Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;«>мягким полупрозрачным оранжевым фоном</mark> и более плавным <mark style=»background-color: transparent; font-weight: normal; color: #AE4C00;">fewfwewfwew <strong>fsf</strong></mark> оформлением. </p>
    ```
 
 ---
@@ -118,7 +159,7 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 *  {% colwidth=[2855] %}
 
    ```
-      <mark style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;"> &nbsp&nbsp Один класс - один родитель.</mark>
+      <mark style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;»> &nbsp&nbsp Один класс - один родитель.</mark>
    ```
 
 ---
@@ -127,14 +168,14 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
    [html:iframe]
 
-      <mark style="background-color: transparent; color: #2F1704; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 18px;">Один класс - один родитель.</mark>
+   <mark style="background-color: transparent; color: #2F1704; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 18px;">Один класс - один родитель.</mark>
 
    [/html]
 
 *  {% colwidth=[2855] %}
 
    ```
-      <mark style="background-color: transparent; color: #2F1704; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 18px;">Один класс - один родитель.</mark>
+      <mark style=«background-color: transparent; color: #2F1704; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 18px;»>Один класс - один родитель.</mark>
    ```
 
 ---
@@ -143,14 +184,14 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
    [html:iframe]
 
-      <mark style="background-color: transparent; color: black; font-family: font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; font-size: 16px !important;">Один <strong>класс</strong> - один родитель.</mark>
+   <mark style="background-color: transparent; color: black; font-family: font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; font-size: 16px !important;">Один <strong>класс</strong> - один родитель.</mark>
 
    [/html]
 
 *  {% colwidth=[2855] %}
 
    ```
-      <mark style="background-color: transparent; color: black; font-family: font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; font-size: 16px !important;"> &nbsp&nbsp Один <strong>класс</strong> - один родитель.</mark>
+      <mark style=«background-color: transparent; color: black; font-family: font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important; font-size: 16px !important;»> &nbsp&nbsp Один <strong>класс</strong> - один родитель.</mark>
    ```
 
 {% /table %}
@@ -162,7 +203,7 @@ color: rgba(255, 165, 0, 0.2);    <br/>
 
 *  {% colwidth=[375] isHeader=true %}
 
-
+&nbsp;
 
 *  {% colwidth=[398] isHeader=true %}
 
