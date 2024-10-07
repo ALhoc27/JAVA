@@ -45,6 +45,8 @@ Java был разработан с целью обеспечения платф
 
 ![](./osnov_java.png)
 
+### **Java SE (Java Standard Edition)**
+
 **Java SE (Java Standard Edition)** -- это стандартное издание платформы Java, которое предоставляет базовую инфраструктуру для разработки и запуска Java-приложений на настольных компьютерах, серверах и аналогичных устройствах. Java SE включает в себя:
 
 -  **Ядро Java API**: Базовый набор библиотек, необходимый для создания Java-приложений, включая коллекции, ввод-вывод, сетевые операции, многопоточность и многие другие.
@@ -67,6 +69,7 @@ Java был разработан с целью обеспечения платф
 
 ![](./osnov_java-2.png)
 
+<<<<<<< Updated upstream
 ### **\_\_ JRE**
 
 **Java Runtime Environment** **(JRE)**: Это среда выполнения, в которой работают Java-приложения. Она включает в себя JVM и стандартную библиотеку классов Java. JRE доступна для многих операционных систем, включая Windows, Linux и macOS.
@@ -317,7 +320,7 @@ class Child extends Parent {
 
 [html:iframe]
 
-<mark style="background-color: #f4f4f4; padding: 6px; border-radius: 3px; font-family: 'Courier New', Courier, monospace; line-height: 1.8; margin: 10px 0; overflow: visible; height: 100px;"> В Java, полиморфизм реализуется с помощью наследования/имплементирования классов и интерфейсов,<strong> а именно с помощью переопределения и перегрузки.</strong>
+<mark style="background-color: #f4f4f4; padding: 6px; border-radius: 3px; font-family: 'Courier New', Courier, monospace; line-height: 1.8; margin: 10px 0; overflow: visible;"> В Java, полиморфизм реализуется с помощью наследования/имплементирования классов и интерфейсов,<strong> а именно с помощью переопределения и перегрузки.</strong>
 </mark>
 
 [/html]
@@ -479,5 +482,7 @@ class Child extends Parent {
 :::
 
 • **Абстракция**: Определение основных характеристик объекта, игнорируя не релевантные детали.
+=======
+
 
 (Подробнее мы разберем эти темы в след. главах, тогда станут они более понятны)
