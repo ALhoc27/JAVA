@@ -136,48 +136,6 @@ mKqAk:
       классов и интерфейсов, и для полного понимания и использования его
       потребуется значительное время и опыт.
   answers: []
-SCwUf:
-  comment:
-    user:
-      mail: alexbbtsk@gmail.com
-      name: ALhoc27
-    dateTime: '2024-10-07T17:23:11.282Z'
-    content: >-
-      Обьект это тот же экземпляр класса, в данном примере обьекта два, home1 и
-      home2, они экземпляры класса Project
-  answers: []
-KsASv:
-  comment:
-    user:
-      mail: alexbbtsk@gmail.com
-      name: ALhoc27
-    dateTime: '2024-10-08T02:50:35.880Z'
-    content: |-
-      **Методы**
-
-      Действия с теми или илыми полями / данными, как в нашем примере:
-
-      `public int costCalculation(int x, int y, int z)`
-  answers:
-    - user:
-        mail: alexbbtsk@gmail.com
-        name: ALhoc27
-      dateTime: '2024-10-08T02:58:46.647Z'
-      content: >-
-        Метод принимает 3 параметра (x y z), возвращая int
-
-
-        (Параметры метода -- это именно переменные, которым присваиваются
-        определенные значения при вызове метода. Сами же значения  называются
-        аргументами метода.)
-y5GCx:
-  comment:
-    user:
-      mail: alexbbtsk@gmail.com
-      name: ALhoc27
-    dateTime: '2024-10-08T02:53:10.956Z'
-    content: "Атрибуты, они же поля -- те же переменные.\n\nВ данном примере, обьявленные следующие поля:\n\n`String houseColor; // цвет домаint`\n\n`numberOfRooms; // количество комнат`\n\n`static int[] houseDimensions = new int[3];\_ // массив с ‘размерами дома’`\n\n\n\nКаждое здание может иметь те самые харрактеристики (**поля**) какие у шаблона, например цвет, количество комнат, размеры комнаты и тд."
-  answers: []
 vMWDB:
   comment:
     user:
