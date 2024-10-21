@@ -40,12 +40,12 @@ title: Admin
 
    [html:iframe]
 
-   <pre style="background-color: transparent; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">
+      <pre style="background-color: transparent; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">
       `123` - code
       **Class Loader** - Жирный
       ```java
       < i > - курсив < /i >
-   </pre>
+      </pre>
 
    [/html]
 
@@ -65,7 +65,7 @@ title: Admin
 
    [html:iframe]
 
-   <mark style="background-color: #f4f4f4; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">
+      <mark style="background-color: #f4f4f4; padding: 10px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">
       полупрозрачным оранжевым<strong> фоном </strong>
       </mark>
 
@@ -84,9 +84,9 @@ title: Admin
 
    [html:iframe]
 
-   <p style="font-family: Tahoma, sans-serif; font-size: 15px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">
-      Текст с <mark style="background-color: rgba(255, 165, 0, 0.3); font-weight: normal; padding: 2px 6px; border: 1px solid #ccc;">полупрозрачным оранжевым фоном</mark> и строгим классическим <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> фоном </mark>стилем шрифта <strong>Tahoma</strong>.
-   </p>
+      <p style="font-family: Tahoma, sans-serif; font-size: 15px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">
+         Текст с <mark style="background-color: rgba(255, 165, 0, 0.3); font-weight: normal; padding: 2px 6px; border: 1px solid #ccc;">полупрозрачным оранжевым фоном</mark> и строгим классическим <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> фоном </mark>стилем шрифта <strong>Tahoma</strong>.
+      </p>
 
    [/html]
 
@@ -104,9 +104,9 @@ title: Admin
 
    [html:iframe]
 
-   <p style="font-family: Tahoma, sans-serif; font-size: 16px; color: #444; line-height: 1.6; letter-spacing: 0.5px;">
-      Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;">мягким полупрозрачным оранжевым фоном</mark> и более плавным <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;">fewfwewfwew <strong>fsf</strong></mark> оформлением.
-   </p>
+      <p style="font-family: Tahoma, sans-serif; font-size: 16px; color: #444; line-height: 1.6; letter-spacing: 0.5px;">
+         Текст с <mark style="background-color: rgba(255, 165, 0, 0.2); font-weight: normal; padding: 3px 8px; border: 1px solid #ddd; border-radius: 3px;">мягким полупрозрачным оранжевым фоном</mark> и более плавным <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;">fewfwewfwew <strong>fsf</strong></mark> оформлением.
+      </p>
 
    [/html]
 
