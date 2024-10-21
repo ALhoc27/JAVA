@@ -980,25 +980,16 @@ Java предоставляет обширную стандартную библ
 
 -  **Error**: системные ошибки, которые обычно не обрабатываются (например, `OutOfMemoryError`, `StackOverflowError`).
 
-{% table %}
-
----
-
-*  {% colwidth=[746] %}
-
-   Принято считать что: `Error` и `RuntimeException` - непроверяемые исключения
-
-   Все прочие `Exception` ошибки являются проверяемые
-
-{% /table %}
+   
 
 [html:iframe]
 
 <table style="background-color: transparent; width: 100%; border-collapse: collapse;">
   <tr>
-    <td style="border: 2px solid #ddd; padding: 8px;">Принято считать что: Error и RuntimeException - непроверяемые исключения <br/> Все прочие Exception ошибки являются проверяемые</td>
+    <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
+      <dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Принято считать что: &nbsp<span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">Error</span> и <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">RuntimeException</span> - непроверяемые исключения <br/>Все прочие &nbsp<span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">Exception</span> ошибки являются проверяемые</td></dir>
+    </td>
   </tr>
-  
 </table>
 
 [/html]
