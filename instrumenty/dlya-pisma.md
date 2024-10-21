@@ -193,28 +193,26 @@ title: Admin
 
 
 {% /table %}
-
-<table style=«background-color: transparent; width: 100%; border-collapse: collapse;»>
-  <tr>
-    <th style=«border: 1px solid #ddd; padding: 8px;»>Заголовок 2</th>
-  </tr>
-  <tr>
-    <td style=«border: 1px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;»> &nbsp&nbsp Один класс - один родитель</p></td>
-  </tr>
-  
-</table>
-
-style=«border: 2px solid #ddd; padding: 8px;»
 ```
 
 ```markdown
+<table style="background-color: transparent; width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
+      <dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;"> &nbsp&nbsp Один класс - один родитель.eveveerere &nbsp;&nbsp;<span style="background-color: #f4f4f4; padding: 7px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">полупрозрачным оранжевым<strong> фоном</strong></span> d33crccre erferfe</dir>
+    </td>
+  </tr>
+  
+</table>
 ```
 
 [html:iframe]
 
 <table style="background-color: transparent; width: 100%; border-collapse: collapse;">
   <tr>
-    <td style=«border: 1px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;»> &nbsp&nbsp Один класс - один родитель</p></td>
+    <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
+      <dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;"> &nbsp&nbsp Один класс - один родитель.eveveerere &nbsp;&nbsp;<span style="background-color: #f4f4f4; padding: 7px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">полупрозрачным оранжевым<strong> фоном</strong></span> d33crccre erferfe</dir>
+    </td>
   </tr>
   
 </table>
