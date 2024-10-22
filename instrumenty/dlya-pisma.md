@@ -18,6 +18,13 @@ title: Admin
 <dir style="padding-left: 6px !important; font-family: Tahoma, sans-serif; font-size: 13px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">Классы, методы, поля, конструкторы, помеченные модификатором <span style="background-color: #f4f4f4; padding: 3px 6px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public</span> , <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> доступны из любого места </mark>, так и из других классов и <strong> пакетов </strong>. 
 </dir>
 
+<h2 style="background-color: transparent; color: #171717; padding: 3px 6px; border-radius: 3px; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 450;">
+  &nbsp;&nbsp;final: (final - значит неизменяемая)
+</h2>
+<h2 style="background-color: transparent; color: #171717; padding: 3px 6px; border-radius: 3px; font-size: 18px; font-family: font-family: 'Courier New', Courier, monospace; font-weight: 500;">
+  &nbsp;&nbsp;final: (final - значит неизменяемая)
+</h2>
+
 
 [/html]
 
@@ -254,5 +261,12 @@ title: Admin
 
 
 <dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Классы, методы, поля, конструкторы, помеченные модификатором  <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public</span> , <strong> доступны из любого места </strong>, так и из других классов и пакетов.</dir>
+
+<h2 style="background-color: transparent; color: #171717; padding: 3px 6px; border-radius: 3px; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 450;">
+  &nbsp;&nbsp;final: (final - значит неизменяемая)
+</h2>
+<h2 style="background-color: transparent; color: #171717; padding: 3px 6px; border-radius: 3px; font-size: 18px; font-family: font-family: 'Courier New', Courier, monospace; font-weight: 500;">
+  &nbsp;&nbsp;final: (final - значит неизменяемая)
+</h2>
 
 [/html]
