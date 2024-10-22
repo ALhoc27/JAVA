@@ -1500,3 +1500,11 @@ Z5Ppx:
 
       `}`
   answers: []
+OACgW:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-21T19:34:38.941Z'
+    content: "Это все исключения кроме RuntimeException\_и Error"
+  answers: []
