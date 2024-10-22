@@ -3,6 +3,24 @@ order: 1
 title: Admin
 ---
 
+[html:iframe]
+
+<table style="background-color: transparent; width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
+      <dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Исключения ( <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">Exceptions</span> ) позволяют программисту корректно реагировать на ошибки, предотвращая крах приложения.</dir>
+    </td>
+  </tr>
+</table>
+
+<dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Исключения ( <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">Exceptions</span> ) позволяют программисту корректно реагировать на ошибки, предотвращая крах приложения.</dir>
+
+<dir style="padding-left: 6px !important; font-family: Tahoma, sans-serif; font-size: 13px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">Классы, методы, поля, конструкторы, помеченные модификатором <span style="background-color: #f4f4f4; padding: 3px 6px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public</span> , <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> доступны из любого места </mark>, так и из других классов и <strong> пакетов </strong>. 
+</dir>
+
+
+[/html]
+
 {% table %}
 
 ---
@@ -209,7 +227,6 @@ title: Admin
 
 [html:iframe]
 
-<p>Исключения (Exceptions) позволяют программисту корректно реагировать на ошибки, предотвращая крах приложения.</p>
 <table style="background-color: transparent; width: 100%; border-collapse: collapse;">
   <tr>
     <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
@@ -217,5 +234,25 @@ title: Admin
     </td>
   </tr>
 </table>
+
+<dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Исключения ( <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">Exceptions</span> ) позволяют программисту корректно реагировать на ошибки, предотвращая крах приложения.</dir>
+
+<dir style="padding-left: 6px !important; font-family: Tahoma, sans-serif; font-size: 13px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">Классы, методы, поля, конструкторы, помеченные модификатором <span style="background-color: #f4f4f4; padding: 3px 6px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public</span> , <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> доступны из любого места </mark>, так и из других классов и пакетов. 
+</dir>
+
+[/html]
+
+[html:iframe]
+
+<p>Исключения (Exceptions) позволяют программисту корректно реагировать на ошибки, предотвращая крах приложения.</p>
+
+<dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Исключения ( <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">Exceptions</span> ) позволяют программисту корректно реагировать на ошибки, предотвращая крах приложения.</dir>
+
+<dir style="padding-left: 6px !important; font-family: Tahoma, sans-serif; font-size: 13px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">Классы, методы, поля, конструкторы, помеченные модификатором <span style="background-color: #f4f4f4; padding: 3px 6px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public</span> , <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> доступны из любого места </mark>, так и из других классов и пакетов. 
+</dir>
+
+
+
+<dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Классы, методы, поля, конструкторы, помеченные модификатором  <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public</span> , <strong> доступны из любого места </strong>, так и из других классов и пакетов.</dir>
 
 [/html]
