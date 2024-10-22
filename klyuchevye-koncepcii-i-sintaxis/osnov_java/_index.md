@@ -960,7 +960,17 @@ Java предоставляет обширную стандартную библ
 
 [image:./osnov_java.jpeg:::0,0,100,100:79:]
 
-**Исключения (Exceptions)** в Java -- это механизмы обработки ошибок и неожиданных ситуаций, возникающих во время выполнения программы. Они позволяют программисту корректно реагировать на ошибки, предотвращая крах приложения.
+[html:iframe]
+
+<table style="background-color: transparent; width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
+      <dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Исключения ( <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">Exceptions</span> ) позволяют программисту корректно реагировать на ошибки, предотвращая крах приложения.</dir>
+    </td>
+  </tr>
+</table>
+
+[/html]
 
 #### **\_  Иерархия исключений**
 
@@ -1099,7 +1109,7 @@ public class ErrorExample {
 
 :::
 
-#### Что делать с исключениями?
+#### Как обрабатывать исключения? (Что делать с ними?)
 
 **Простейший вариант** -- ничего. Возникает исключение -- программа просто прекращает работать.
 
@@ -1210,5 +1220,3 @@ public class ErrorExample {
 [/tab]
 
 [/tabs]
-
-
