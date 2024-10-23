@@ -42,12 +42,20 @@ RTSKW:
 
       -  **Поля экземпляра** -- инициализируются **при создании объекта**.
   answers: []
-R5Ppz:
+LED6m:
   comment:
     user:
       mail: alexbbtsk@gmail.com
       name: ALhoc27
-    dateTime: '2024-10-22T15:10:45.337Z'
+    dateTime: '2024-10-22T16:22:01.088Z'
+    content: '# по умолчанию, без модификатора'
+  answers: []
+KfLSs:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-22T16:22:17.409Z'
     content: >-
       # Цель конструктора в абстрактном класс**е**
 
@@ -106,20 +114,12 @@ R5Ppz:
       Factory**, когда создание экземпляров абстрактного класса ограничено самим
       классом.
   answers: []
-4DNqd:
+U7Nkr:
   comment:
     user:
       mail: alexbbtsk@gmail.com
       name: ALhoc27
-    dateTime: '2024-10-22T15:12:19.801Z'
-    content: '# по умолчанию, без модификатора'
-  answers: []
-yhQvI:
-  comment:
-    user:
-      mail: alexbbtsk@gmail.com
-      name: ALhoc27
-    dateTime: '2024-10-22T15:24:52.069Z'
+    dateTime: '2024-10-22T16:22:35.100Z'
     content: >-
       Модификатор - описание - применимост**ь**
 
