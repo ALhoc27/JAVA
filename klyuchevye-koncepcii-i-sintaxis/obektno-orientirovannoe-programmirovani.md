@@ -834,6 +834,196 @@ class Counter {
 
 :::note:true Пример состояния гонки
 
+```java
+public class RaceConditionExample {
+    private static int counter = 0; // Общий ресурс
 
+    public static void main(String[] args) {
+        Thread t1 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter++; // Увеличение счетчика
+            }
+        });
+
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter--; // Уменьшение счетчика
+            }
+        });
+
+        t1.start(); // Запуск потока 1
+        t2.start(); // Запуск потока 2
+
+        try {
+            t1.join(); // Ожидание завершения потока 1
+            t2.join(); // Ожидание завершения потока 2
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Финальный счетчик: " + counter); // Результат
+    }
+}
+```
+
+### **Объяснение**
+
+В этом примере два потока (`t1` и `t2`) одновременно увеличивают и уменьшают значение переменной `counter`. Без синхронизации результат может быть некорректным, так как потоки могут выполнять операции над переменной одновременно, что приведет к неправильному окончательному значению.
 
 :::
+
+#### **Как избежать состояния гонки**
+
+#### **\_\_ 1. Синхронизация**
+
+**Использование ключевого слова** `synchronized`
+
+-  Блокировка позволяет одному потоку получить эксклюзивный доступ к критической секции, предотвращая доступ к ней другим потокам.
+
+```java
+public class SynchronizedExample {
+    private static int counter = 0;
+
+    public synchronized static void increment() {
+        counter++;
+    }
+
+    public synchronized static void decrement() {
+        counter--;
+    }
+
+    public static void main(String[] args) {
+        Thread t1 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                increment();
+            }
+        });
+
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                decrement();
+            }
+        });
+
+        t1.start();
+        t2.start();
+
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Финальный счетчик: " + counter); // Теперь результат будет корректным
+    }
+}
+```
+
+#### **\_\_ 2. Использование** `ReentrantLock`
+
+-  Более гибкий механизм блокировки, чем `synchronized`, позволяет управлять блокировками более подробно.
+
+```java
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class LockExample {
+    private static int counter = 0;
+    private static Lock lock = new ReentrantLock();
+
+    public static void increment() {
+        lock.lock(); // Захват блокировки
+        try {
+            counter++;
+        } finally {
+            lock.unlock(); // Освобождение блокировки
+        }
+    }
+
+    public static void decrement() {
+        lock.lock();
+        try {
+            counter--;
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public static void main(String[] args) {
+        Thread t1 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                increment();
+            }
+        });
+
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                decrement();
+            }
+        });
+
+        t1.start();
+        t2.start();
+
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Финальный счетчик: " + counter); // Результат будет корректным
+    }
+}
+```
+
+#### **\_\_ 3. Использование** `Atomic` классов
+
+-  Классы, такие как `AtomicInteger`, обеспечивают безопасные операции над переменными без явного использования синхронизации.
+
+```java
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class AtomicExample {
+    private static AtomicInteger counter = new AtomicInteger(0);
+
+    public static void main(String[] args) {
+        Thread t1 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.incrementAndGet(); // Безопасное увеличение
+            }
+        });
+
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.decrementAndGet(); // Безопасное уменьшение
+            }
+        });
+
+        t1.start();
+        t2.start();
+
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Финальный счетчик: " + counter.get()); // Результат будет корректным
+    }
+}
+```
+
+#### **Заключение**
+
+**Состояние гонки** -- это распространённая проблема в многопоточных приложениях, которая может привести к некорректным результатам. Для её предотвращения в Java можно использовать:
+
+-  Синхронизацию через `synchronized`.
+
+-  Явные блокировки с помощью `ReentrantLock`.
+
+-  Безопасные для потоков классы, такие как `AtomicInteger`.
+
+Использование этих методов поможет обеспечить корректность и предсказуемость работы многопоточных приложений.
