@@ -433,7 +433,7 @@ title: 2. Модификаторы доступа
 
 ### Так же есть есть другие модификаторы (`final`, `static`, `transient`, `volatile`):
 
-###  `final`: (final - значит неизменяемая)
+### `final`: (final - значит неизменяемая)
 
 **Переменные**, объявленные как `final`, являются постоянными (**константами**) и не могут быть изменены после [comment:RTSKW]инициализации[/comment] и должны быть инициализированы либо при объявлении, либо в конструкторе.
 
@@ -461,7 +461,7 @@ title: 2. Модификаторы доступа
 
 [html:iframe]
 
-<h3 style="margin-top: 20px;"> ___ <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> переменные класса</h3>
+<h3 style="margin-top: 20px;"> <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> переменные класса</h3>
 <table style="background-color: transparent; width: 100%; border-collapse: collapse;">
   <tr>
     <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
@@ -481,3 +481,48 @@ title: 2. Модификаторы доступа
 -  Но `final` переменные обязательно **требуют явной инициализации**, иначе компилятор сообщит об ошибке.
 
 :::
+
+[html:iframe]
+
+<h3 style="margin-top: 20px;"> <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> переменные метода (локальные переменные)</h3>
+<table style="background-color: transparent; width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
+      <dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Должны быть инициализированы до их первого использования.</dir>
+    </td>
+  </tr>
+</table>
+
+[/html]
+
+#### [comment:L7YmL]\___\_ Подробнее ( **final** локальные переменные) …[/comment]
+
+[html:iframe]
+
+<h3 style="margin-top: 20px;"> <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> &nbsp; <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">static</span> - константа класса</h3>
+<table style="background-color: transparent; width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 2px solid #ddd; padding: 8px;"><p style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
+      <span style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;"><span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public static final</span> [тип] <strong> [идентификатор] </strong></span>
+     <br/><br/>
+     <span style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Когда переменная объявлена как <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final static</span> , это означает, что <strong> она является константой класса </strong>.</span>
+    </td>
+  </tr>
+</table>
+
+
+[/html]
+
+final static **константой класса**
+
+`public static final` \[тип\] **\[идентификатор\]**
+
+Когда переменная объявлена как **final static**, это означает, что **она является константой класса**.
+
+-  **static** означает, что переменная принадлежит самому классу, а не экземплярам класса.
+
+-  **final** означает, что значение переменной нельзя изменить после инициализации.
+
+-  **final static** переменная инициализируется при загрузке класса и сохраняет своё значение на протяжении всего времени работы программы. Такие переменные часто объявляются как **public** и используются для определения констант.
+
+**\-** Поскольку **final static** переменные являются константами на уровне класса, они должны быть инициализированы во время объявления или в статическом блоке инициализации. Они доступны для использования даже без создания экземпляра класса.
