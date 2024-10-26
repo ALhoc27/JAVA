@@ -25,6 +25,26 @@ title: Admin
 <h2 style="background-color: transparent; color: #171717; padding: 3px 6px; border-radius: 3px; font-size: 18px; font-family: font-family: 'Courier New', Courier, monospace; font-weight: 500;">
   &nbsp;&nbsp;final: (final - значит неизменяемая)
 </h2>
+<hr/>
+
+[/html]
+
+[html:iframe]
+
+<h2 style="padding-left: 6px !important; font-family: Tahoma, sans-serif; font-size: 20px; color: #000; line-height: 1.5; letter-spacing: 0.5px; font-weight: 300;">Инициализация статических переменных</h2>
+___ 1
+<h3 style="margin-top: 20px;">&nbsp;&nbsp; - <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> переменные класса</h3>
+___ 2
+<table style="background-color: transparent; width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
+      <dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Исключения ( <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">Exceptions</span> ) позволяют программисту корректно реагировать на ошибки, предотвращая крах приложения.</dir>
+    </td>
+  </tr>
+</table>
+___ 3
+<dir style="padding-left: 6px !important; font-family: Tahoma, sans-serif; font-size: 13px; color: #000; line-height: 1.5; letter-spacing: 0.5px;">Классы, методы, поля, конструкторы, помеченные модификатором <span style="background-color: #f4f4f4; padding: 3px 6px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public</span> , <mark style="background-color: transparent; font-weight: normal; color: #AE4C00;"> доступны из любого места </mark>, так и из других классов и <strong> пакетов </strong>. 
+</dir>
 
 [/html]
 
@@ -270,3 +290,5 @@ title: Admin
 </h2>
 
 [/html]
+
+
