@@ -433,7 +433,7 @@ title: 2. Модификаторы доступа
 
 ### Так же есть есть другие модификаторы (`final`, `static`, `transient`, `volatile`):
 
-### \_\_ `final`: (final - значит неизменяемая)
+### \- `final`: (final - значит неизменяемая)
 
 **Переменные**, объявленные как `final`, являются постоянными (**константами**) и не могут быть изменены после [comment:RTSKW]инициализации[/comment] и должны быть инициализированы либо при объявлении, либо в конструкторе.
 
@@ -461,7 +461,7 @@ title: 2. Модификаторы доступа
 
 [html:iframe]
 
-<h3 style="margin-top: 20px;"> - <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> переменные класса</h3>
+<h3 style="margin-top: 20px;"> ___ <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> переменные класса</h3>
 <table style="background-color: transparent; width: 100%; border-collapse: collapse;">
   <tr>
     <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
@@ -472,11 +472,11 @@ title: 2. Модификаторы доступа
 
 [/html]
 
-#### Подробнее ( `final` переменные класса) …
+#### [comment:04E06]\___\_ Подробнее ( **final** переменные класса) …[/comment]
 
 :::tip 
 
--  Обычные [comment:ZpdEC]**переменные экземпляра** и **статические переменные**[/comment] **получают значения по умолчанию** (например, `0` для числовых типов, `null` для объектов).
+-  [comment:hTL0w]**Обычные** **переменные экземпляра** и **статические переменные**[/comment] **получают значения по умолчанию** (например, `0` для числовых типов, `null` для объектов).
 
 -  Но `final` переменные обязательно **требуют явной инициализации**, иначе компилятор сообщит об ошибке.
 
