@@ -451,8 +451,33 @@ title: 2. Модификаторы доступа
 
 **\- Класс**, объявленный как **final**, **не может быть наследован**. Другими словами, нельзя создать подклассы от такого класса. Это часто делается в целях безопасности, чтобы предотвратить изменение поведения класса, или для гарантии его неизменности.
 
-**\-** Класс `String `в Java, например, является final, что **предотвращает его расширение** и гарантирует, что строковые объекты останутся неизменными (immutable).
+**\-** Класс `String` в Java, например, является `final`, что **предотвращает его расширение** и гарантирует, что строковые объекты останутся неизменными (**immutable**).
 
 #### \_\_ `final` (*в переменных*):
 
+[image:./obektno-orientirovannoe-programmirovani-3.png:::0,0,100,100:47:]
 
+Когда ключевое слово **final** используется с переменной, это означает, что **переменная может быть инициализирована только один раз**, и её значение не может быть изменено после инициализации.
+
+[html:iframe]
+
+<h3 style="margin-top: 20px;"> - <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> переменные класса</h3>
+<table style="background-color: transparent; width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
+      <dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Инициализируются при создании объекта, и каждый объект класса будет иметь свою копию <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> переменной.</dir>
+    </td>
+  </tr>
+</table>
+
+[/html]
+
+#### Подробнее ( `final` переменные класса) …
+
+:::tip 
+
+-  Обычные [comment:ZpdEC]**переменные экземпляра** и **статические переменные**[/comment] **получают значения по умолчанию** (например, `0` для числовых типов, `null` для объектов).
+
+-  Но `final` переменные обязательно **требуют явной инициализации**, иначе компилятор сообщит об ошибке.
+
+:::

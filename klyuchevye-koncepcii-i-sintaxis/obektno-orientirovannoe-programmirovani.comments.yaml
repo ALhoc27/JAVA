@@ -356,3 +356,11 @@ NLUSb:
       -  **Позднее связывание (Late Binding)**: Связывание происходит во время
       выполнения, позволяя использовать **полиморфизм**.
   answers: []
+ZpdEC:
+  comment:
+    user:
+      mail: alexbbtsk@gmail.com
+      name: ALhoc27
+    dateTime: '2024-10-26T15:55:55.740Z'
+    content: переменные экземпляра и статические переменны**е**
+  answers: []

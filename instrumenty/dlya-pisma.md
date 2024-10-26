@@ -5,6 +5,7 @@ title: Admin
 
 [html:iframe]
 
+<h3 style="margin-top: 20px;">&nbsp;&nbsp; - <span style="background-color: #f4f4f4; padding: 4px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">final</span> переменные класса</h3>
 <table style="background-color: transparent; width: 100%; border-collapse: collapse;">
   <tr>
     <td style="border: 2px solid #ddd; padding: 8px;»><p style=«background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">
@@ -24,7 +25,6 @@ title: Admin
 <h2 style="background-color: transparent; color: #171717; padding: 3px 6px; border-radius: 3px; font-size: 18px; font-family: font-family: 'Courier New', Courier, monospace; font-weight: 500;">
   &nbsp;&nbsp;final: (final - значит неизменяемая)
 </h2>
-
 
 [/html]
 
