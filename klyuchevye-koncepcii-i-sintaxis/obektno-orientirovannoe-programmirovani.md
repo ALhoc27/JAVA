@@ -13,15 +13,13 @@ title: 2. Модификаторы доступа
 
 ### **Модификаторы доступа:**
 
-
-
 {% table %}
 
 ---
 
 *  {% colwidth=[348] %}
 
-   [image:./obektno-orientirovannoe-programmirovani-10.png:::0,0,100,100:92:]
+   [image:./obektno-orientirovannoe-programmirovani-10.png::Для переменных экземпляра,  локальные переменные не имеют модификатора:0,0,100,100:92:]
 
 *  {% colwidth=[431] %}
 
@@ -29,37 +27,7 @@ title: 2. Модификаторы доступа
 
 {% /table %}
 
-#### **−** `public` **(публичный):**
-
-[html:iframe]
-
-<dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Классы, методы, поля, конструкторы, помеченные модификатором  <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public</span> , <strong> доступны из любого места </strong>, так и из других классов и пакетов.</dir>
-
-[/html]
-
-#### **−** `private` **(приватный):**
-
-[html:iframe]
-
-<dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Члены класса, помеченные модификатором  <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">private</span> , <strong> видны только внутри того же класса </strong>. Они не доступны извне класса, включая подклассы.</dir>
-
-[/html]
-
-#### **−** `protected` **(защищенный):**
-
-[html:iframe]
-
-<dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;"><span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">protected</span> - это также модификатор доступа, что и <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">default</span>, но с более широким уровень доступа.<br/>Члены класса, помеченные модификатором <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">protected</span> , <strong> видны классе, в внутри пакета, а также в подклассах </strong>(даже если они находятся в другом пакете)</dir>
-
-[/html]
-
-#### **−** `default` **(по умолчанию, package-private)**
-
-[html:iframe]
-
-<dir style="background-color: transparent; color: #333; padding: 3px 6px; border-radius: 3px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;">Если член класса не имеет явного модификатора доступа (т.е., не помечен как  <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">public</span> , <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">private</span> или <span style="background-color: #f4f4f4; padding: 3px; border-radius: 3px; overflow: auto; font-family: 'Courier New', Courier, monospace;">protected</span>, то он <strong> считается доступным только внутри своего собственного пакета.</strong></dir>
-
-[/html]
+[comment:f90Mr]Подробнее…[/comment]
 
 ![](./obektno-orientirovannoe-programmirovani.png)
 
@@ -80,8 +48,6 @@ title: 2. Модификаторы доступа
 [/html]
 
 ### Общие правила для **переменных**
-
-![](./obektno-orientirovannoe-programmirovani-3.png)
 
 В Java **нет глобальных переменных**. Однако их функциональность можно эмулировать с помощью [comment:WtdPH]**статических переменных класса**[/comment]
 
@@ -473,18 +439,20 @@ title: 2. Модификаторы доступа
 
 [image:./obektno-orientirovannoe-programmirovani-2.png:::0,0,100,100:53:]
 
-#### **Рассмотрим где применяется final:**
+#### **Рассмотрим где применяется** `final`**:**
 
-#### final методы:
+#### \_\_ `final` методы:
 
 **\-** Когда **метод** класса объявляется как **final**, это означает, что он **не может быть переопределен в подклассах.** Это делается для того, чтобы гарантировать, что поведение метода сохранится во всех подклассах и что ключевые аспекты реализации не будут изменены.
 
-**\-** Применение **final** к методу может быть также использовано для небольшого увеличения производительности, так как это позволяет компилятору делать оптимизацию путем раннего связывания.
+**\-** Применение **final** к методу может быть также использовано для небольшого увеличения производительности, так как это позволяет компилятору делать оптимизацию путем [comment:NLUSb]раннего связывания[/comment].
 
-#### final классы:
+#### \_\_ `final` классы:
 
 **\- Класс**, объявленный как **final**, **не может быть наследован**. Другими словами, нельзя создать подклассы от такого класса. Это часто делается в целях безопасности, чтобы предотвратить изменение поведения класса, или для гарантии его неизменности.
 
-**\-** Класс String в Java, например, является final, что **предотвращает его расширение** и гарантирует, что строковые объекты останутся неизменными (immutable).
+**\-** Класс `String `в Java, например, является final, что **предотвращает его расширение** и гарантирует, что строковые объекты останутся неизменными (immutable).
 
-### final (*в переменных*):
+#### \_\_ `final` (*в переменных*):
+
+
